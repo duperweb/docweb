@@ -62,3 +62,11 @@ samp {
     border: 1px gray groove;
     margin: 6px;
 }
+
+.warning {
+    text-align: none;
+}
+
+.importante {
+    text-align: none;
+}
