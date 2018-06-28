@@ -1,0 +1,18 @@
+{
+  "name": "docweb",
+  "version": "1.0.0",
+  "description": "\"aprann programasyon an kreyol ayisyen\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "css",
+    "html", 
+    "english to creole",
+    "spanish to creole"
+  ],
+  "author": "dieuseul duperoy : duperweb",
+  "license": "ISC"
+}

@@ -1,0 +1,81 @@
+@media (max-width: 380px) {
+/*=======TOP HEADER SECTION========*/
+#header-top, 
+.top-message,
+#button-top-menu span,
+#top-nav-hori a {
+    display: block;
+    max-width: 100%;
+}
+
+#button-top-menu,
+.top-message,
+#top-nav-hori {
+    background: #1f1f5a;
+}
+
+#button-top-menu span {
+    border-bottom: 2px double white;
+    width: 35px;
+    padding: 3px;
+    border-radius:10px 10px 10px 10px;
+}
+
+
+.top-message p {
+    color: white;
+    text-align: right;
+    position: relative;
+    bottom: 0;
+}
+#top-nav-hori {
+    display: none;
+}
+#top-nav-hori a{
+    margin: 3px  auto;
+    width: 90%;
+    text-align: center;
+ }
+/*==end of==TOP HEADER SECTION======*/
+/*=======WRAPPER SECTION========*/
+#wrapper {
+     max-width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     box-sizing: border-box;
+     overflow: hidden;
+}
+
+main, aside {
+    box-sizing: border-box;
+    padding: 0;
+    flex-basis: 90%;
+    max-width: 90%;
+}
+
+
+.top-text span {
+    text-align: center;
+    margin-right: 55px;
+}
+.grid-column {
+    max-width: 100%;
+    flex-basis: 100%;
+    flex: 1;
+}
+#main-content {
+    display: block;
+    flex-flow: row wrap;
+    flex-basis: 90%;
+    padding: 0;
+}
+#main-content:nth-child(n) {
+    flex: 1;
+    max-width: 90%;
+}
+
+}
+
+@media screen and (max-width: 769px) {
+    
+}
