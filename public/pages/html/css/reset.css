@@ -37,6 +37,11 @@ input {
 ol,ul {
 	list-style:none;
 }
+
+li {
+	padding: 5px;
+	margin: 5px;
+}
 address,caption,cite,code,dfn,th,var {
 	font-style:normal;
 	font-weight:normal;
