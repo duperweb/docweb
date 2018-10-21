@@ -1,5 +1,5 @@
 window.addEventListener("load", init, false);
-var devices = document.body.clientWidth ||window.innerWidth;
+var devices = document.body.clientWidth ||window.innerWidth || screen.availWidth;
 function init() {
 	"use strict";
 	if(devices <= 380) {
