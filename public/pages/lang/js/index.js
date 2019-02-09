@@ -1,12 +1,8 @@
-// add
 window.addEventListener("load", init, false);
-// targetting devices width
-var devices = document.body.clientWidth || window.innerWidth;
+var devices = document.body.clientWidth ||window.innerWidth || screen.availWidth;
 function init() {
-// g
 	"use strict";
 	if(devices <= 380) {
-		// 
 		var btn = document.getElementById("button-top-menu");
 		var menutop = document.getElementById("top-nav-hori");
 		btn.addEventListener("click", stilShow);

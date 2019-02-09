@@ -81,14 +81,14 @@ p {
         font-size: 16px;
         flex: 2;
         width: 16%;
-        border-bottom: 2px #1f1f5a double;
+        border-bottom: 2px rgb(57, 180, 255) double;
     }
 
     .top-text {
         flex: 1;
         color: whitesmoke;
         border-radius: 100px; 
-        background: #1f1f5a;
+        background: rgb(57, 180, 255);
         font-size: 14pt;
         padding: 10px;
         box-shadow: 5px 5px #383855;
@@ -110,7 +110,7 @@ p {
     main {
         flex: 3;
         background-color: white;
-        color: #1f1f5a;
+        color: rgb(57, 180, 255);
         line-height: 1.5;
         margin: 0 auto;
         max-width: 60%;
@@ -120,7 +120,7 @@ p {
     }
 
     main a {
-    color: #1f1f5a;
+    color: rgb(245, 57, 0);
     }
 
     .grid-column {
@@ -140,7 +140,7 @@ p {
     }
     
     .grid-column p {
-        color: darkblue;
+        color: rgb(245, 57, 0);
     }
 
     .one3 {
@@ -178,19 +178,19 @@ p {
     }
 
     aside li a  {
-        color: #1f1f5a;
+        color: rgb(57, 180, 255);
         
     }
 
 
     aside  li:hover, aside li:focus {
-        background: #1f1f5a;
+        background: rgb(57, 180, 255);
         color: white;
     }
 
     aside:hover {
         border-radius: 5px 5px;
-        border:  1px solid #1f1f5a;
+        border:  1px solid rgb(57, 180, 255);
     }
 
 
@@ -206,7 +206,7 @@ p {
 
     /*all the anchor tags on mouse over*/
     main a:hover {
-    background-color: #1f1f5a;
+    background-color: rgb(57, 180, 255);
     color: white;
 }
     /*all paragraph that is direct child of a div*/
@@ -217,11 +217,11 @@ p {
 /*------------------give the conten a design-----------------------*/
     li.contents {
         padding: 7px; 
-        border-bottom: 1px groove #1f1f5a;
+        border-bottom: 1px groove rgb(57, 180, 255);
         border-radius: 5px 5px;
         margin-bottom: 5px;
         font-weight: bolder;
-        color:  #1f1f5a;
+        color:  rgb(57, 180, 255);
     }
     li.contents a {
         text-transform: capitalize;
@@ -231,7 +231,7 @@ p {
         display: none;
     }
     ul.hiding-content li {
-        background: #1f1f5a;
+        background: rgb(57, 180, 255);
     }
     ul.hiding-content a {
         color: white;
@@ -264,7 +264,7 @@ p {
         color: #eef;
         display: block;
         text-transform: uppercase;
-        background: #1f1f5a;
+        background: rgb(57, 180, 255);
     }
     footer div {
         width: 80%;

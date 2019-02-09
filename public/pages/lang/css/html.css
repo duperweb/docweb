@@ -52,7 +52,8 @@ p {
         text-decoration: none;
         color:  white;
         border-radius: 6px 0 0 6px;
-        background-color: hsl(9, 84%, 46%);
+        background-color: hsl(225.9, 23.9%, 13.9%);
+    
     }
 /*===================== END OF HEADER  TOP SECTION====================*/
 
@@ -69,14 +70,14 @@ p {
         font-size: 16px;
         flex: 2;
         width: 16%;
-        border-bottom: 2px hsl(9, 84%, 46%) double;
+        border-bottom: 2px hsl(225.9, 23.9%, 13.9%) double;
     }
 
     .top-text {
         flex: 1;
         color: whitesmoke;
         border-radius: 100px; 
-        background: hsl(9, 84%, 46%);
+        background: hsl(225.9, 23.9%, 13.9%);
         font-size: 14pt;
         padding: 10px;
         box-shadow: 5px 5px #383855;
@@ -98,7 +99,7 @@ p {
     main {
         flex: 3;
         background-color: white;
-        color: hsl(9, 84%, 46%);
+        color: hsl(225.9, 23.9%, 13.9%);
         line-height: 1.5;
         margin: 0 auto;
         max-width: 60%;
@@ -108,7 +109,7 @@ p {
     }
 
     main a {
-    color: hsl(9, 84%, 46%);
+    color: hsl(225.9, 23.9%, 13.9%);
     }
 
     .grid-column {
@@ -166,19 +167,19 @@ p {
     }
 
     aside li a  {
-        color: hsl(9, 84%, 46%);
+        color: hsl(225.9, 23.9%, 13.9%);
         
     }
 
 
     aside  li:hover, aside li:focus {
-        background: hsl(9, 84%, 46%);
+        background: hsl(225.9, 23.9%, 13.9%);
         color: white;
     }
 
     aside:hover {
         border-radius: 5px 5px;
-        border:  1px solid hsl(9, 84%, 46%);
+        border:  1px solid hsl(225.9, 23.9%, 13.9%);
     }
 
 
@@ -194,7 +195,7 @@ p {
 
     /*all the anchor tags on mouse over*/
     main a:hover {
-    background-color: hsl(9, 84%, 46%);
+    background-color: hsl(225.9, 23.9%, 13.9%);
     color: white;
 }
     /*all paragraph that is direct child of a div*/
@@ -205,11 +206,11 @@ p {
 /*------------------give the conten a design-----------------------*/
     li.contents {
         padding: 7px; 
-        border-bottom: 1px groove hsl(9, 84%, 46%);
+        border-bottom: 1px groove hsl(225.9, 23.9%, 13.9%);
         border-radius: 5px 5px;
         margin-bottom: 5px;
         font-weight: bolder;
-        color:  hsl(9, 84%, 46%);
+        color:  hsl(225.9, 23.9%, 13.9%);
     }
     li.contents a {
         text-transform: capitalize;
@@ -219,7 +220,7 @@ p {
         display: none;
     }
     ul.hiding-content li {
-        background: hsl(9, 84%, 46%);
+        background: hsl(225.9, 23.9%, 13.9%);
     }
     ul.hiding-content a {
         color: white;
@@ -255,7 +256,7 @@ p {
         color: #eef;
         display: block;
         text-transform: uppercase;
-        background: hsl(9, 84%, 46%);
+        background: hsl(225.9, 23.9%, 13.9%);
     }
     footer div {
         width: 80%;
