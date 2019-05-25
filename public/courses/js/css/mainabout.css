@@ -1,0 +1,22 @@
+@import url('main.css');
+#wrapper {
+    display: flex;
+    max-width: 85%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+main {
+    order: -1;
+    flex: 3;
+}
+
+aside {
+    flex: 1;
+    background: #383855;
+    max-width: 25%;
+    height: 50%;
+}
+
+aside img {
+    max-width: 60px;
+}

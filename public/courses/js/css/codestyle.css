@@ -1,0 +1,64 @@
+abbr,acronym { border:0;
+}
+
+samp {
+    color: #e20f0f;
+    background: #1e1e1e;
+}
+
+code, .code {
+     background: #1e1e1e;
+     color: yellowgreen;
+     max-width: 100%; 
+     display: block;
+      
+}
+pre.code {
+    color: yellowgreen;
+    border: 1px ridge grey;
+    background: #1e1e1e;
+    display: block;
+}
+
+
+samp {
+    
+    color: #e20f0f;
+    background: #1e1e1e;
+}
+
+.comments {
+	color: grey;
+}
+
+.syntax {
+	color: blue;
+}
+.result {
+	color: yellow;
+}
+
+.example {
+	color: #1e1e1e;
+}
+
+.identifier {
+	color: mediumvioletred;
+}
+
+.keyword {
+	color: #c25457;
+}
+.valuecode {
+	color: white;
+}
+
+.tips {
+    padding: 15px;
+    background: white;
+    color: #768197;
+    font-size: 1.5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px gray groove;
+    margin: 6px;
+}
