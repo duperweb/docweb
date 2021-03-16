@@ -1,0 +1,15 @@
+/**************************************
+IMPORTING OTHER FILE TO LOAD FIRST
+*************************************/
+
+body {
+    background-color: #eef;
+}
+.header-pages {
+    /*with  % make container relative to size and can be centralized*/
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    color:  white;
+    justify-content: center;text-transform: uppercase;
+}

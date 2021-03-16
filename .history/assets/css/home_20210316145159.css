@@ -1,0 +1,23 @@
+/**************************************
+IMPORTING OTHER FILE TO LOAD FIRST
+*************************************/
+
+body {
+    background-color: #eef;
+}
+
+/*===================== HEADER PAGES SECTION====================*/
+.header-pages {
+    /*with  % make container relative to size and can be centralized*/
+    margin: 0 auto;
+    width: 100%;
+   
+}
+
+#top-nav-hori {
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 0 0 6px 6px;
+    text-align: center;
+}

@@ -1,0 +1,50 @@
+/**************************************
+IMPORTING OTHER FILE TO LOAD FIRST
+*************************************/
+
+
+/********************************
+    RESET DEFAULT BEHAVIOR
+********************************/
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #eef;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/*===================== HEADER PAGES SECTION===========================*/
+.header-pages {
+    /*with  % make container relative to size and can be centralized*/
+    margin: 0 auto;
+    width: 100%;
+}
+
+#nav-horizontal-menu {
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 0 0 6px 6px;
+    text-align: center;
+}
+#nav-horizontal-menu a {
+    color: white;
+    background-color: #383855;
+    padding: 9px;
+    border-radius: 6px 0 0 6px;
+    
+}
+.docweb {
+    margin: 0 auto;
+    text-align: center;
+}
+
+top-line {
+    font-size: 16px;
+    flex: 2;
+    width: 20%;
+    border-bottom: 2px #1f1f5a double;
+}
+/*===================== END OF HEADER  TOP SECTION====================*/
