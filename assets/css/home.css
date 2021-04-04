@@ -1,11 +1,23 @@
 /**************************************
 IMPORTING OTHER FILE TO LOAD FIRST
-*************************************/
+***************background:  #1f1f5a;**********************/
 
 
 /********************************
     RESET DEFAULT BEHAVIOR
 ********************************/
+*::after, *::before {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -13,17 +25,23 @@ a {
 
 ul {
     list-style: none;
-
 }
 
-body {
-    background-color: #eef;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+img {
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+    border: 0;
+    padding: 0;
 }
 
 /*===================== HEADER PAGES SECTION===========================*/
-.header-pages {
-    /*with  % make container relative to size and can be centralized*/
+header {
+   /* with  % make container relative to size and can be centralized */
     margin: 0 auto;
 }
 
@@ -34,13 +52,14 @@ body {
     border-radius: 0 0 6px 6px;
     text-align: center;
 }
+
 #nav-horizontal-menu a {
     color: white;
     background-color: #383855;
     padding: 9px;
     border-radius: 6px 0 0 6px;
-    
 }
+
 .docweb {
     margin: 0 auto;
     text-align: center;
@@ -49,7 +68,7 @@ body {
 .header-line {
     font-size: 16px;
     flex: 2;
-    width: 2000px;
+    width: 200px;
     border-bottom: 2px #1f1f5a double;
 }
 
@@ -60,41 +79,89 @@ body {
     background: #1f1f5a;
     font-size: 14pt;
     color: whitesmoke;
-    padding: 10px;
+    padding: 5px 20px;
     border-radius: 100px;
-    box-shadow: 5px 5px #383855;
+    box-shadow: 4px 4px #383855;
+    text-transform: uppercase;
 }
 /*===================== END OF HEADER  TOP SECTION====================*/
 
 /*=====================WRAPPER AND MAIN SECTION====================*/
-#wrapper {
-    display: flex;
-    justify-content: space-around;
-    background-color: white;
-    max-width: 80%;
-    margin: 0 auto;
-}
 
-.main-content {
-    background: #FFF;
-    color: #1f1f5a;
-    width: 80%;
-    margin: 10px auto;
-    padding: 10px;
+.main-content, #wrapper {
+    margin: 0 auto;
+    padding: 5px;
     text-align: center;
     line-height: 1.5;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #eef;
+    color: #1f1f5a;
+    width: 80%;
+}
+
+.header-landing {
+    background: #fff;
+    color: #2d2d42;
+    text-align: center;
+    width: 97%;
+    padding: 20px;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 5px;
+    box-shadow: 10px 5px #383855;
+    box-sizing: border-box;
+}
+
+.header-landing a {
+    font-size: 0.5em;
+}
+.header-landing p {
+    width: 40%;
+    margin: 0 auto;
+    line-height: 1.5;
 
 }
 
+.home-button {
+    background-color: #383855;
+    color: white;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 16px;
+    border-radius: 15px;
+    margin: 25px auto;
+    font-weight: lighter;
+    border-radius: 100px;
+    padding: 5px 20px;
+}
 
+.container-courses {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+}
 
+.box {
+    margin: 10px auto;
+    box-shadow: 4px 4px #383855;
+    box-sizing: border-box;
+    background: white;
+    padding: 10px;
+    flex: 0 1 30%;
+}
 
+.box img {
+    max-height: 400px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
 /*===================== FOOTER  SECTION CUSTOM STYLES====================*/
 footer {
     margin: 0 auto;
     color:  white;
-    background:  #1f1f5a;
+    background-color: #383855;
     display: block;
     text-transform: uppercase;
     flex-basis: 100%;
